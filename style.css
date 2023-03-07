@@ -1,0 +1,1311 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200;700&family=Roboto&family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200;700&family=Roboto&family=Source+Sans+Pro:ital,wght@0,700;1,200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
+}
+
+.container-1> :first-child {
+    text-align: right;
+}
+
+.container-1> :first-child>p {
+    font-size: 13em;
+    font-family: "Roboto", "sans-serif";
+    margin-top: 48px;
+}
+
+.container-1> :last-child> :first-child {
+    font-size: 5em;
+    font-family: "Roboto", "sans-serif";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container-1> :last-child> :nth-child(2) {
+    font-size: 40px;
+    font-family: "Verdama", "sans-serif";
+    margin-top: -90px;
+}
+
+.container-1> :last-child> :last-child {
+    width: 27%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Verdana", "sans-serif";
+    font-size: 20px;
+    background-color: #f34b4b;
+    color: #ffff;
+    border: 2px solid #f34b4b;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+/* sign up */
+.sign-up {
+    background: url("Images/layer.png");
+    margin-top: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sign-up> :first-child {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    width: 50%;
+    margin: auto;
+    background-color: #ffff;
+}
+
+.container-2> :first-child {
+    width: 87%;
+    margin: auto;
+}
+
+.container-2> :first-child> :first-child {
+    font-size: 22px;
+    font-family: "Source Sans Pro", "sans-serif";
+    font-weight: bold;
+    color: #6b7b8a;
+}
+
+.container-2> :first-child> :last-child {
+    font-family: "Source Sans Pro", "sans serif";
+    color: #6b7b8a;
+    font-weight: bold;
+}
+
+.container-2> :nth-child(2) {
+    width: 87%;
+    margin: auto;
+}
+
+.container-2> :last-child>form>* {
+    display: block;
+    margin-top: 10px;
+}
+
+.container-2> :last-child>form>input {
+    width: 100%;
+    height: 30px;
+    border: 2px solid #c6e2e6;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container-2> :last-child>form>label {
+    color: #6b7b8a;
+    font-family: "Georgia", "sans-serif";
+}
+
+.container-2> :last-child> :last-child {
+    display: flex;
+}
+
+.container-2> :last-child> :last-child>* {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container-2> :last-child> :last-child {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 10px;
+}
+
+.container-2> :last-child> :last-child> :last-child {
+    text-align: right;
+}
+
+.container-2> :last-child> :last-child> :first-child {
+    display: flex;
+    align-items: center;
+}
+
+.container-2> :last-child> :last-child> :last-child>button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #ec4949;
+    color: #fff;
+    border: 5px #ec4949;
+    border-radius: 5px;
+}
+
+.span-1 {
+    color: #8dc6cd;
+}
+
+/* sign-up-2 */
+.sign-up-2 {
+    background: url("Images/layer3.jpeg");
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.container-3 {
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 73%;
+    gap: 100px;
+    margin: auto;
+}
+
+.container-3> :first-child> :first-child {
+    font-size: 35px;
+    font-family: "Georgia", "sans-serif";
+    font-weight: bold;
+    color: #fff;
+}
+
+.container-3> :first-child> :last-child {
+    font-family: "Georgia", "sans-serif";
+    color: #fff;
+}
+
+.spam-2 {
+    color: #81d165;
+}
+
+.container-3> :last-child> :first-child {
+    width: 58%;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px gray;
+    position: relative;
+    padding-top: 30px;
+}
+
+.circle-1 {
+    height: 80px;
+    width: 80px;
+    background-color: #81d165;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -40px;
+    top: 30px;
+}
+
+.container-3> :last-child> :first-child> :nth-child(2) {
+    width: 70%;
+    margin: auto;
+}
+
+.container-3> :last-child> :first-child> :nth-child(2)> :first-child {
+    font-family: "Source Sans Pro", "Georgia";
+    font-size: 22px;
+    color: #535455;
+}
+
+.container-3> :last-child> :first-child> :nth-child(2) :nth-child(2) {
+    font-family: "Source Sans Pro";
+    font-weight: light;
+    font-style: italic;
+    margin-top: -20px;
+}
+
+.hr-1 {
+    margin-top: 60px;
+}
+
+.social-net {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    width: 88%;
+    gap: 30px;
+    margin: auto;
+    position: absolute;
+    top: 21%;
+    left: 5%
+}
+
+.social-btn {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    font-size: 20px;
+    font-family: "Source Sans Pro", "Georgia";
+    color: #fff;
+    text-align: center;
+}
+
+.sb-1> :first-child {
+    background-color: #73cbef;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.sb-1> :last-child {
+    background-color: #8cd6f4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0 5px 5px 0px;
+}
+
+.sb-2> :first-child {
+    background-color: #7184ab;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.sb-2> :last-child {
+    background-color: #8d9ec1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0 5px 5px 0px;
+}
+
+.social-btn> :last-child {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.register-1 {
+    width: 88%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.register-1> :last-child {
+    text-align: right;
+}
+
+.same-input>input[type=Email] {
+    width: 100%;
+    height: 40px;
+    outline: none;
+}
+
+.same-input {
+    position: relative;
+}
+
+.same-input> :first-child {
+    position: absolute;
+    top: 25%;
+    left: 2%;
+}
+
+.vl {
+    border-left: 2px solid #d5d5d5;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 11%;
+}
+
+.si-2 {
+    margin-top: 40px;
+}
+
+.register-1> :last-child> :last-child {
+    margin-top: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 30%;
+    font-size: 20px;
+    font-family: "Source Sans Pro", "Georgia";
+    color: #fff;
+    background-color: #81d165;
+    border: 2px solid #81d165;
+    border-radius: 5px;
+}
+
+.hr-3 {
+    margin-top: 50px;
+}
+
+.container-3> :last-child> :first-child> :last-child {
+    width: 88%;
+    margin: auto;
+    font-family: "Source Sans Pro", "Georgia";
+    font-weight: lighter;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.spam-3 {
+    color: #81d165;
+    font-weight: bold;
+}
+
+/* sign-up-3 */
+.sign-up-3 {
+    padding-top: 130px;
+    padding-bottom: 100px;
+    background-color: #f2f2f2;
+}
+
+.container-4 {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    padding-bottom: 180px;
+}
+
+.container-4> :first-child {
+    width: 100%;
+    margin: auto;
+    font-family: "Source Sans Pro", "Georigia";
+    color: #4f4f4f;
+}
+
+.container-4> :first-child> :first-child {
+    text-align: center;
+    font-size: 90px;
+}
+
+.container-4> :first-child> :last-child {
+    width: 50%;
+    margin: auto;
+    margin-top: -90px;
+    color: #b0b0b0;
+    font-size: 20px;
+    text-align: right;
+}
+
+.register-2 {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    width: 82%;
+    margin: auto;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 15px gray;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.register-2> :first-child {
+    display: flex;
+    background-color: #34b7ce;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.register-2> :first-child> :last-child {
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: "Source Sans Pro", "sans-serif";
+    color: #fff;
+}
+
+.c-12 {
+    margin-left: 30px;
+    height: 70px;
+    width: 70px;
+    background-color: #259cb1;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-12> :first-child {
+    width: 30px;
+    height: 30px;
+}
+
+.register-2> :last-child {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.aside-login {
+    width: 85%;
+}
+
+.sb-3 {
+    width: 60%;
+    margin: auto;
+    margin-top: 55px;
+}
+
+.sb-3> :first-child {
+    background-color: #324e89;
+    padding: 10px 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.sb-3> :last-child {
+    background-color: #3c5a98;
+    padding: 10px 0;
+    border-radius: 0 5px 5px 0
+}
+
+.span-3 {
+    font-size: 15px;
+}
+
+.aside-login> :nth-child(2) {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hr-4 {
+    width: 100%;
+}
+
+.span-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-top: -15px;
+    background-color: #eaeaea;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 0.5px;
+}
+
+.span-4> :first-child {
+    color: #bebebe;
+}
+
+.aside-login> :nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.aside-login> :nth-child(3)> :first-child,
+.aside-login> :nth-child(3)> :nth-child(2) {
+    margin-bottom: 33px;
+    padding: 22px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #dcdcdc;
+}
+
+.aside-login> :last-child {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 86%;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.aside-login> :last-child> :last-child>button {
+    width: 100%;
+    font-size: 20px;
+    background-color: #00a0bc;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.aside-login> :last-child> :first-child {
+    display: flex;
+    align-items: center;
+}
+
+.aside-login> :last-child> :first-child>label {
+    color: #cbcbcb;
+    font-family: "Source Sans Pro", "Georgia";
+    font-weight: lighter;
+}
+
+.circle-2 {
+    height: 80px;
+    width: 80px;
+    background-color: #81d165;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.aside-register {
+    position: relative;
+}
+
+.vl-2 {
+    /* transform: rotate(90deg);
+    position: absolute;
+    width: 40vh;
+    bottom: 50%;
+    left: -40%; */
+    display: none;
+}
+
+.aside-register> :nth-child(2) {
+    font-family: "Source Sans Pro", "sans-serif";
+    color: #838383;
+    width: 75%;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+}
+
+.aside-register> :nth-child(3) {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.aside-register> :nth-child(3)>input {
+    height: 45px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #dcdcdc;
+    margin-top: 10px;
+}
+
+.aside-register> :nth-child(3)>label {
+    margin-top: 20px;
+    font-family: "Source Sans Pro", "Georgia";
+    font-weight: lighter;
+    color: #999999;
+}
+
+.aside-register> :last-child {
+    width: 75%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.aside-register> :last-child>button {
+    padding: 10px 0;
+    width: 43%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: #ffc334;
+    font-family: "Source Sans Pro", "sans-serif";
+}
+
+.c-1 {
+    position: absolute;
+    background-color: #79a0c0;
+    left: 20px;
+    top: 100px;
+}
+
+.c-2 {
+    width: 40px;
+    height: 40px;
+    left: 200px;
+    top: 80px;
+    background-color: #00a0bc;
+}
+
+.c-3 {
+    background-color: #4fb6e2;
+    left: 50px;
+    top: 600px;
+}
+
+.c-4 {
+    width: 40px;
+    height: 40px;
+    background-color: #4fb6e2;
+    left: 50px;
+    top: 800px;
+}
+
+.c-5 {
+    width: 60px;
+    height: 60px;
+    background-color: #ffc334;
+    left: 160px;
+    bottom: 100px;
+}
+
+.c-6 {
+    width: 50px;
+    height: 50px;
+    background-color: #00a0bc;
+    left: 500px;
+    bottom: 150px;
+}
+
+.c-7 {
+    width: 60px;
+    height: 60px;
+    background-color: #c5d4e1;
+    left: 600px;
+    bottom: 70px;
+}
+
+.c-8 {
+    width: 55px;
+    height: 55px;
+    right: 380px;
+    bottom: 90px;
+    background-color: #008bcf;
+}
+
+.c-9 {
+    width: 120px;
+    height: 120px;
+    background-color: #4fb6e2;
+    right: 50px;
+    top: 700px;
+}
+
+.c-10 {
+    width: 100px;
+    height: 100px;
+    background-color: #004e8f;
+    right: 40px;
+    top: 100px;
+}
+
+.c-11 {
+    background-color: #ffc334;
+    width: 40px;
+    height: 40px;
+    right: 180px;
+    top: 80px;
+}
+
+/* sign-up-4 */
+
+.sign-up-4 {
+    background-color: #00a0bc;
+    padding-bottom: 110px;
+}
+
+.sign-up-4> :first-child {
+    width: 61%;
+    margin: auto;
+    padding-top: 110px;
+    color: #fff;
+    font-family: "Source Sans Pro", "Georgia";
+}
+
+.sign-up-4> :first-child>h1 {
+    font-size: 40px;
+}
+
+.sign-up-4> :first-child>h4 {
+    margin-top: -20px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.register-3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 70%;
+    margin: auto;
+}
+
+.aside-login {
+    width: 100%;
+}
+
+.aside-register {
+    width: 100%;
+}
+
+.aside-login-2> :last-child> :last-child>button {
+    background-color: #0289a1;
+}
+
+.aside-register-2> :nth-child(3)>label {
+    color: #fff;
+}
+
+.aside-register-2> :nth-child(2) {
+    color: #fff;
+}
+
+.aside-login-2> :nth-child(2)> :last-child {
+    background-color: #75c0cd;
+}
+
+.aside-login-2> :nth-child(2)> :first-child {
+    background-color: #65c4d4;
+}
+
+/* sign-up-5 */
+.sign-up-5 {
+    background-color: #374954;
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+.sign-up-5> :first-child {
+    width: 66%;
+    margin: auto;
+    font-size: 40px;
+    font-family: "Source Sans Pro";
+    font-weight: lighter;
+    color: #fff;
+    font-style: italic;
+}
+
+.container-5 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    width: 66%;
+    margin: auto;
+}
+
+.aside-login-3> :first-child {
+    margin-bottom: 80px;
+}
+
+.aside-login-3> :first-child>input,
+.aside-login-3> :nth-child(2)>input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #7fc8f4;
+    width: 70%;
+    margin-left: 10px;
+    color: #fff;
+    font-family: "Source Sans Pro", "Georgia";
+    font-weight: lighter;
+}
+
+.aside-login-3> :first-child>label,
+.aside-login-3> :nth-child(2)>label {
+    color: #e4e7e8;
+    font-family: "Source Sans Pro", "Georgia";
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.aside-login-3> :last-child {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 65px;
+}
+
+.aside-login-3> :last-child> :first-child {
+    display: flex;
+    align-items: center;
+}
+
+.aside-login-3> :last-child> :first-child>label {
+    font-family: "Source  Sans Pro", "Georgia";
+    font-weight: lighter;
+    font-style: italic;
+    color: #6a7d88;
+    margin-left: 15px;
+}
+
+.aside-login-3> :last-child> :last-child>button {
+    width: 60%;
+    padding: 10px 0;
+    font-family: "Source Sans Pro", "Georgia";
+    font-weight: lighter;
+    font-style: italic;
+    color: #677984;
+    background-color: transparent;
+    border: 2px solid #5f737f;
+}
+
+.aside-login-with> :last-child {
+    display: flex;
+    flex-direction: row;
+}
+
+.aside-login-with> :first-child {
+    color: #cccfd1;
+    font-family: "Source Sans Pro", "Georgia";
+    font-weight: lighter;
+
+}
+
+.aside-login-with> :last-child> :nth-child(2) {
+    margin: 0 20px;
+}
+
+.c-13 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #3960b0;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-14 {
+    border: 2px solid #00abf0;
+}
+
+.c-15 {
+    border: 2px solid #eb412e;
+}
+
+/* sign-up-6 */
+
+.sign-up-6 {
+    background-color: #818c93;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.container-6 {
+    display: grid;
+    grid-template-rows: 21% 79%;
+    width: 48%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px gray;
+}
+
+.container-6> :first-child {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    align-items: center;
+}
+
+.container-6> :first-child> :last-child {
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: "Source Sans Pro", "Georgia";
+    font-weight: bold;
+    color: #505b71;
+}
+
+.c-17 {
+    background-color: #365eab;
+    border: none;
+}
+
+.container-6> :last-child {
+    width: 84%;
+    margin: auto;
+
+}
+
+.container-6> :last-child>form {
+    display: grid;
+    grid-template-columns: 55% 39%;
+    gap: 6%;
+}
+
+.container-6> :last-child>form> :first-child>input,
+.container-6> :last-child>form> :last-child>input,
+.container-6> :last-child> :nth-child(2)>* {
+    width: 98%;
+    padding: 10px 0;
+    padding-left: 10px;
+    outline: none;
+    border: 2px solid #ebebeb;
+    border-radius: 5px;
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.container-6> :last-child> :nth-child(3) {
+    text-align: right;
+}
+
+.same-btn {
+    width: 34%;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-family: "Source Sans Pro";
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.submit-btn {
+    border: 2px solid #365eab;
+    border-radius: 5px;
+    background-color: #365eab;
+    color: #fff;
+}
+
+.cancel-btn {
+    border: 2px solid #d8d8d8;
+    border-radius: 5px;
+    color: #868686;
+}
+
+
+
+@media only screen and (max-width:1024px) {
+    .sign-up> :first-child {
+        width: 90%
+    }
+
+    .container-2> :last-child> :last-child> :first-child>label {
+        margin-left: 10px;
+    }
+
+    .container-2> :last-child> :last-child> :first-child {
+        justify-content: center;
+    }
+
+    .container-2> :last-child> :last-child {
+        display: block;
+    }
+
+    /* sign-up-2 */
+    .sign-up-2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .container-3 {
+        width: 90%;
+    }
+
+    .social-net {
+        gap: 10px;
+    }
+
+    .same-input {
+        padding-bottom: 5px;
+    }
+
+    .register-1> :last-child> :last-child {
+        width: 100%;
+    }
+
+    .container-3> :last-child> :first-child {
+        width: 90%;
+    }
+
+    .circle-1 {
+        height: 70px;
+        width: 70px;
+    }
+
+    .circle-1> :first-child {
+        width: 30px;
+        height: 30px;
+    }
+
+    .register-1 {
+        margin-top: 50px;
+    }
+
+    .vl {
+        height: 70%;
+        top: 8%;
+    }
+
+    /* sign-up-3 */
+    .sign-up-3 {
+        padding-top: 50px;
+    }
+
+    .container-4> :first-child {
+        width: 70%;
+    }
+
+    .register-2 {
+        margin-top: 50px;
+    }
+
+    .sb-3 {
+        width: 80%;
+    }
+
+    .aside-login {
+        width: 100%;
+    }
+
+    .aside-login> :last-child {
+        display: block;
+    }
+
+    .aside-login> :last-child> :first-child {
+        margin-top: -10px;
+    }
+
+    .aside-login> :last-child> :last-child>button{  
+        margin-top:20px;
+    }
+
+    .aside-register> :last-child>button{
+        width:100%;
+        margin-top:30px;
+    }
+
+    .c-1 {
+        width: 120px;
+        height: 120px;
+        left: -50px;
+    }
+
+    .c-2 {
+        left: 100px;
+    }
+
+    .c-3 {
+
+        left: 35px;
+    }
+
+    .c-4 {
+        top: 850px;
+        left: 30px;
+    }
+
+    .c-6 {
+        bottom: 150px;
+        left: 400px;
+    }
+
+    .c-11 {
+        right: 70px;
+        top: 40px;
+    }
+
+    .c-10 {
+        top: 120px;
+    }
+
+    .c-9 {
+        width: 150px;
+        height: 150px;
+        right: 20px;
+        border-radius: 70%;
+        top: 750px;
+    }
+
+    /* sign-up-5 */
+    .sign-up-5> :first-child{
+        text-align:center;
+    }
+
+    .container-5{
+        display:block;
+        text-align:center;
+    }
+    .aside-login-with > :first-child{
+        display:none;
+    }
+
+    .aside-login-with> :last-child{
+        justify-content:center;
+        margin-top:50px;
+    }
+
+    .sign-up-5> :first-child{
+        width:56%;
+    }
+
+    .aside-login-3> :last-child{
+        display:block;
+    }
+    .aside-login-3> :last-child> :first-child{
+        text-align:center;
+        justify-content:center;
+        margin-bottom:50px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200;700&family=Roboto&display=swap');
+
+    /* header */
+    .container-1> :first-child>p {
+        font-size: 10em;
+    }
+
+    .container-1> :last-child> :first-child {
+        font-size: 2em;
+        margin-top: 80px;
+    }
+
+    .container-1> :last-child> :nth-child(2) {
+        margin-top: -20px;
+        font-size: 30px;
+    }
+
+    .container-1> :last-child> :last-child {
+        width: 90%;
+    }
+
+    /* sign up */
+    .sign-up {
+        background: url("Images/layer.png") cover/center no-repeat;
+        margin-top: -80px;
+    }
+
+    .sign-up> :first-child {
+        width: 90%
+    }
+
+    .container-2> :last-child> :last-child {
+        display: block;
+    }
+
+    .container-2> :last-child> :last-child> :first-child>label {
+        margin-left: 10px;
+    }
+
+    /* sing-up-2 */
+    .sign-up-2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .container-3> :first-child> :first-child {
+        color: gray;
+    }
+
+    .container-3> :first-child> :last-child {
+        color: gray;
+    }
+
+    .container-3 {
+        width: 90%;
+    }
+
+    .container-3> :last-child> :first-child {
+        width: 100%;
+    }
+
+    .circle-1 {
+        height: 50px;
+        width: 50px;
+        left: -20px;
+    }
+
+    .circle-1> :first-child {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-net {
+        top: 24%;
+        gap: 10px;
+    }
+
+    .vl {
+        left: 15%;
+    }
+
+    .register-1> :last-child> :last-child {
+        width: 100%;
+    }
+
+    /* sing-up-3 */
+
+    .container-4 {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+
+    .container-4> :first-child {
+        margin: 0;
+        width: 100%;
+        margin: auto;
+    }
+
+    .container-4> :first-child> :first-child {
+        font-size: 40px;
+    }
+
+    .container-4> :first-child> :last-child {
+        margin-top: -40px;
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .register-2 {
+        display: block;
+        width: 100%;
+        box-shadow: none;
+        ;
+    }
+
+
+    .register-2> :first-child> :last-child {
+        font-size: 20px;
+    }
+
+    .c-12 {
+        display: none;
+    }
+
+    .register-2> :last-child {
+        display: block;
+    }
+
+    .aside-register> :nth-child(2) {
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .aside-register> :last-child>button {
+        margin-bottom: 50px;
+    }
+
+    .container-4> :nth-child(2) {
+        display: none;
+    }
+
+    /* sign-up-4 */
+    .sign-up-4{
+        padding-bottom:50px;
+    }
+    .sign-up-4> :first-child {
+        width: 80%;
+        padding-top:50px;
+    }
+
+    .sign-up-4> :first-child>h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .sign-up-4> :first-child>h4 {
+        text-align: center;
+    }
+
+    .register-3 {
+        display: block;
+        width:100%;
+    }
+
+    /* sign-up-5 */
+    .sign-up-5> :first-child{
+        text-align:center;
+        font-size:20px;
+    }
+
+    .aside-login-3> :last-child> :last-child>button{
+        width:100%;
+    }
+
+    /* sign-up-6 */
+    .container-6{
+        width:80%;
+    }
+}
